@@ -68,3 +68,13 @@ Thumbs.db
 # Project specific
 data/*.csv
 !data/sample_reference.csv
+
+# Secrets and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
